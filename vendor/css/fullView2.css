@@ -1,0 +1,56 @@
+/*
+ #fullview>div {
+            background-color: azure;
+            padding: 200px 0;
+        }
+
+        #fullview>div:nth-child(even) {
+            background-color: black;
+            color: #ffffff;
+        }
+*/
+
+/*
+        #fullview h2 {
+            margin: auto;
+            width: 50%;
+            text-align: center;
+        }
+*/
+        #navbar {
+            position: fixed;
+            width: 100%;
+            padding: 20px;
+            z-index: 2;
+        }
+
+        #navbar ul {
+            list-style: none;
+            text-align: center;
+        }
+
+        #navbar li {
+            display: inline-block;
+            padding: 10px;
+            background-color: #ffffff;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+
+        #navbar .snake {
+            padding: 0;
+            border: 1px solid transparent;
+        }
+
+        
+
+        #navbar li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        /*Change the navigation active property from here*/
+        #navbar li a.active {
+            font-weight: 600;
+            background-color: red;
+        }

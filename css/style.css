@@ -1,0 +1,44 @@
+/*--------------------Font setup ---------------*/
+@font-face {
+    src: url(../fonts/DancingScript-Regular.ttf);
+    font-family: loader;
+}
+
+@font-face {
+    src: url(../fonts/Quicksand-Regular.ttf);
+    font-family: regular;
+}
+
+body {
+    font-family: regular;
+}
+
+#section1 {
+    height: 1400px;
+    position: relative;
+    
+}
+#section1 video {
+    
+    position: absolute;
+    height: 100%;
+    width : 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+#section1 .text , .image {
+    border: 1px solid black; /*This color should be vanished from here*/
+    z-index: 1;
+
+
+}
+
+#section1 .image img{
+    max-width: 100%;
+}
+
+
+
+
+
